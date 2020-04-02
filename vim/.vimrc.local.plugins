@@ -1,0 +1,10 @@
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'thosakwe/vim-flutter'
+Plug 'OmniSharp/omnisharp-vim'
+Plug 'liuchengxu/vim-clap'
+Plug 'pangloss/vim-javascript'
+Plug 'jelera/vim-javascript-syntax'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'ryanoasis/vim-devicons'
+Plug 'sbdchd/neoformat'
