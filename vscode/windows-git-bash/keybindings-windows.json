@@ -1,0 +1,62 @@
+// Place your key bindings in this file to override the defaults. This is for User/keybindings.json.
+[
+	{
+		"key": "h",
+		"command": "editor.action.scrollLeftHover",
+		"when": "editorHoverFocused"
+	},
+	{
+		"key": "j",
+		"command": "editor.action.scrollDownHover",
+		"when": "editorHoverFocused"
+	},
+	{
+		"key": "k",
+		"command": "editor.action.scrollUpHover",
+		"when": "editorHoverFocused"
+	},
+	{
+		"key": "l",
+		"command": "editor.action.scrollRightHover",
+		"when": "editorHoverFocused"
+	},
+	{
+		"key": "ctrl+h",
+		"command": "-extension.vim_ctrl+h",
+		"when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
+	},
+	{
+		"key": "ctrl+h",
+		"command": "workbench.action.focusLeftGroup",
+		"when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "-extension.vim_navigateCtrlL",
+		"when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "workbench.action.focusRightGroup",
+		"when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl"
+	},
+	{
+		"key": "ctrl+shift+c",
+		"command": "go.test.coverage"
+	},
+	{
+		"key": "ctrl+shift+f",
+		"command": "go.fill.struct"
+	},
+	{
+		"key": "enter",
+		"command": "list.toggleExpand",
+		"when": "explorerViewletFocus && explorerViewletVisible && !inputFocus && explorerResourceIsFolder"
+	},
+	{
+		"key": "enter",
+		"command": "workbench.action.tasks.runTask",
+		"args": "openAndToggle",
+		"when": "explorerViewletFocus && explorerViewletVisible && !inputFocus && !explorerResourceIsFolder"
+	},
+]

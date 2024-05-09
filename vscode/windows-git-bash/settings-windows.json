@@ -1,0 +1,255 @@
+// This is for User/settings.json
+{
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"vim.useSystemClipboard": true,
+	"vim.searchHighlightColor": "#f8ff00",
+	"vim.searchHighlightTextColor": "#000000",
+	"vim.hlsearch": true,
+	"vim.startofline": false,
+	"vim.leader": ",",
+	"vim.highlightedyank.enable": true,
+	"vim.highlightedyank.color": "#E6F92F",
+	"vim.highlightedyank.duration": 250,
+	"vim.handleKeys": {
+		"<C-c>": false,
+		"<C-x>": false,
+		"<C-a>": false,
+		"<C-v>": false,
+		"<C-w>": false,
+	},
+	"vim.visualModeKeyBindings": [
+		{
+			"before": [
+				"<C-k>"
+			],
+			"after": [
+				"%"
+			]
+		}
+	],
+	"vim.normalModeKeyBindings": [
+		{
+			"before": [
+				"g",
+				"s"
+			],
+			"commands": [
+				"editor.action.revealDefinitionAside"
+			]
+		},
+		{
+			"before": [
+				"g",
+				"p",
+				"d"
+			],
+			"commands": [
+				"editor.action.peekDefinition"
+			]
+		},
+		{
+			"before": [
+				"g",
+				"h"
+			],
+			"commands": [
+				"editor.action.showDefinitionPreviewHover"
+			]
+		},
+		{
+			"before": [
+				"g",
+				"i"
+			],
+			"commands": [
+				"editor.action.goToImplementation"
+			]
+		},
+		{
+			"before": [
+				"g",
+				"p",
+				"i"
+			],
+			"commands": [
+				"editor.action.peekImplementation"
+			]
+		},
+		{
+			"before": [
+				"g",
+				"q"
+			],
+			"commands": [
+				"editor.action.quickFix"
+			]
+		},
+		{
+			"before": [
+				"g",
+				"r"
+			],
+			"commands": [
+				"editor.action.referenceSearch.trigger"
+			]
+		},
+		{
+			"before": [
+				"g",
+				"t"
+			],
+			"commands": [
+				"editor.action.goToTypeDefinition"
+			]
+		},
+		{
+			"before": [
+				"g",
+				"p",
+				"t"
+			],
+			"commands": [
+				"editor.action.peekTypeDefinition"
+			]
+		},
+		{
+			"before": [
+				"<C-k>"
+			],
+			"after": [
+				"%"
+			]
+		},
+		{
+			"before": [
+				"<escape>"
+			],
+			"commands": [
+				":noh"
+			]
+		},
+		{
+			"before": [
+				"<enter>"
+			],
+			"commands": [
+				":w"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"a"
+			],
+			"commands": [
+				"workbench.view.explorer"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"x"
+			],
+			"commands": [
+				"workbench.action.nextEditor"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"z"
+			],
+			"commands": [
+				"workbench.action.previousEditor"
+			]
+		},
+		{
+			"before": [
+				"Z",
+				"Z"
+			],
+			"commands": [
+				":wq"
+			]
+		},
+		{
+			"before": [
+				"Z",
+				"Q"
+			],
+			"commands": [
+				":q!"
+			]
+		}
+	],
+	"go.useLanguageServer": true,
+	"go.autocompleteUnimportedPackages": true,
+	"go.formatTool": "gofmt",
+	"go.lintOnSave": "file",
+	"go.lintTool": "golangci-lint",
+	"go.lintFlags": [
+		"--enable-all",
+		"--tests",
+		"--fast",
+		"-Dgochecknoglobals",
+		"-Dexhaustivestruct",
+		"-Dgofumpt",
+		"-Dlll",
+		"-Dgodot",
+		"-Dgomnd"
+	],
+	"gopls": {
+		"build.experimentalWorkspaceModule": true
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"editor.defaultFormatter": null,
+	"editor.lineHeight": 19,
+	"editor.fontLigatures": true,
+	"explorer.decorations.badges": false,
+	"go.toolsManagement.autoUpdate": true,
+	"terminal.integrated.lineHeight": 0,
+	"terminal.external.osxExec": "iTerm.app",
+	"window.zoomLevel": 1,
+	"colorize.languages": [
+		"css",
+		"sass",
+		"scss",
+		"less",
+		"postcss",
+		"sss",
+		"stylus",
+		"xml",
+		"svg",
+		"javascript"
+	],
+	"editor.cursorStyle": "line",
+	"editor.insertSpaces": false,
+	"editor.lineNumbers": "on",
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"editor.wordWrap": "off",
+	"redhat.telemetry.enabled": true,
+	"editor.formatOnSave": true,
+	"[go]": {
+		"editor.insertSpaces": false,
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+		},
+		"editor.suggest.snippetsPreventQuickSuggestions": false
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"godotTools.lsp.serverPort": 6005,
+	"godotTools.inlayHints.gdscript": true,
+	"godotTools.inlayHints.gdresource": true,
+	"godotTools.scenePreview.previewRelatedScenes": "anyFolder",
+	"terminal.integrated.splitCwd": "initial",
+}
